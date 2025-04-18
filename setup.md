@@ -1,3 +1,8 @@
+# For old node / npm versions
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
+
 # Connect to mysql (mariadb) inside the container
 
 mysql -h db -u root -pmariadb
